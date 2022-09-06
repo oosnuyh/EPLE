@@ -7,9 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import org.techtown.tple.databinding.FragmentHomeBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -64,8 +61,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         val homeUserRVAdapter = HomeUserAdapter(mainActivity,userList.toMutableList())
         homeUserRV.adapter = homeUserRVAdapter
 
-
     }
+    //
 
 //    companion object {
 //        /**

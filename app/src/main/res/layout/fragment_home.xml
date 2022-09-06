@@ -19,15 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:listitem="@layout/rv_homeuser"
         />
-<!--    <androidx.recyclerview.widget.RecyclerView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="0dp"-->
-<!--        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:spanCount="2"-->
-<!--        tools:listitem="@layout/rv_homeuser" -->
-<!--        />-->
 
     <TextView
         android:layout_width="wrap_content"

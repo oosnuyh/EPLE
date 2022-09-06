@@ -30,9 +30,9 @@ class MainActivity : AppCompatActivity() {
                         bottomNavigationView.itemTextColor = ContextCompat.getColorStateList(this, R.color.color_home)
                         HomeFragment()
                     }
-                    R.id.menu_search -> {
-                        bottomNavigationView.itemIconTintList = ContextCompat.getColorStateList(this, R.color.color_search)
-                        bottomNavigationView.itemTextColor = ContextCompat.getColorStateList(this, R.color.color_search)
+                    R.id.menu_plan -> {
+                        bottomNavigationView.itemIconTintList = ContextCompat.getColorStateList(this, R.color.color_plan)
+                        bottomNavigationView.itemTextColor = ContextCompat.getColorStateList(this, R.color.color_plan)
                         SearchFragment()
                     }
 

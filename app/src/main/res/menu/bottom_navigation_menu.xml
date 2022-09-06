@@ -6,9 +6,9 @@
         android:id="@+id/menu_home"
         />
     <item
-        android:title="검색"
+        android:title="계획"
         android:enabled="true"
-        android:id="@+id/menu_search"
+        android:id="@+id/menu_plan"
         />
     <item
         android:title="프로필"

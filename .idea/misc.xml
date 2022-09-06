@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/dkdle/AndroidStudioProjects/Tple/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/dkdle/AndroidStudioProjects/Tple/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/dkdle/AndroidStudioProjects/Tple/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/dkdle/AndroidStudioProjects/Tple/app/src/main/res/layout/fragment_plan.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/dkdle/AndroidStudioProjects/Tple/app/src/main/res/layout/fragment_profile.xml" value="0.21331521739130435" />
         <entry key="..\:/Users/dkdle/AndroidStudioProjects/Tple/app/src/main/res/layout/fragment_search.xml" value="0.21331521739130435" />
         <entry key="..\:/Users/dkdle/AndroidStudioProjects/Tple/app/src/main/res/layout/rv_homeuser.xml" value="0.20153985507246377" />
