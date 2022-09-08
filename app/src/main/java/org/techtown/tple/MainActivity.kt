@@ -1,11 +1,17 @@
 package org.techtown.tple
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import org.techtown.tple.fragment.HomeFragment
+import org.techtown.tple.fragment.PlanFragment
+import org.techtown.tple.fragment.ProfileFragment
+import org.techtown.tple.login.Login
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,6 +23,11 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        if(true){       //로그인 안돼있으면
+            val loginIntent = Intent(this, Login::class.java)
+            startActivity(loginIntent)
+        }
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.b_b)
 
@@ -33,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                     R.id.menu_plan -> {
                         bottomNavigationView.itemIconTintList = ContextCompat.getColorStateList(this, R.color.color_plan)
                         bottomNavigationView.itemTextColor = ContextCompat.getColorStateList(this, R.color.color_plan)
-                        SearchFragment()
+                        PlanFragment()
                     }
 
                     else -> {
