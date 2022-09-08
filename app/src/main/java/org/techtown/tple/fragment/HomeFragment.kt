@@ -1,4 +1,4 @@
-package org.techtown.tple
+package org.techtown.tple.fragment
 
 import android.content.Context
 import android.os.Bundle
@@ -7,6 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import org.techtown.tple.home.user.DataHomeUser
+import org.techtown.tple.home.user.HomeUserAdapter
+import org.techtown.tple.MainActivity
+import org.techtown.tple.R
 import org.techtown.tple.databinding.FragmentHomeBinding
 
 // TODO: Rename parameter arguments, choose names that match
